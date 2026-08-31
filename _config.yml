@@ -31,6 +31,17 @@ paginate_path: /page:num/
 # Search
 search: true
 
+# Comments
+comments:
+  provider: "giscus"
+  giscus:
+    repo_id: "R_kgDOUJZe3A"
+    category_name: "Announcements"
+    category_id: "DIC_kwDOUJZe3M4DEj7p"
+    discussion_term: "pathname"
+    reactions_enabled: 1
+    theme: "light"
+
 author:
   name: "김세권"
   avatar: "/assets/images/avatar.jpeg"
@@ -63,7 +74,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: false
+      comments: true
       share: true
       related: true
   - scope:
