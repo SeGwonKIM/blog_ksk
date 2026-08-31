@@ -31,6 +31,9 @@ paginate_path: /page:num/
 # Search
 search: true
 
+# Allow future-dated posts to publish immediately
+future: true
+
 # Analytics
 analytics:
   provider: "google-gtag"
