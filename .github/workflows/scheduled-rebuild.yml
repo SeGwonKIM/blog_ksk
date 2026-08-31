@@ -1,0 +1,23 @@
+name: Scheduled rebuild for future-dated posts
+
+on:
+  schedule:
+    # 15:05 UTC = 00:05 KST (Asia/Seoul) — right after midnight in Korea
+    - cron: "5 15 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  trigger-rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Push empty commit to trigger a Pages rebuild
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit --allow-empty -m "chore: scheduled rebuild to publish dated posts"
+          git push
