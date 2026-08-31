@@ -10,3 +10,11 @@ AI / 데이터 학습 기록용 GitHub 블로그입니다. Jekyll + [minimal-mis
 bundle install
 bundle exec jekyll serve
 ```
+
+- 아직 날짜가 안 된(미공개) 글까지 미리보기 (관리자 전용, 로컬에서만 보임):
+
+```bash
+bundle exec jekyll serve --future
+```
+
+  `_config.yml`에는 `future: true`를 넣지 않았습니다. 그래야 실제 배포되는 사이트(GitHub Pages)는 예약된 날짜가 되기 전까지 글을 숨기고, `--future` 플래그를 준 로컬 서버에서만 관리자가 미리 확인할 수 있습니다.
