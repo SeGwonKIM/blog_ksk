@@ -1,0 +1,75 @@
+# Site settings
+title: "김세권의 학습 기록"
+subtitle: "AI / 데이터 공부 노트"
+name: "김세권"
+email: yesany99@gmail.com
+description: >-
+  AI, 데이터 사이언스, 개발을 공부하며 배운 내용을 정리하고 기록하는 블로그입니다.
+locale: "ko-KR"
+url: "https://kskfather.github.io"
+baseurl: "/blog_ksk"
+repository: "KskFather/blog_ksk"
+
+# Theme
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "default"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-include-cache
+
+# Pagination
+paginate: 5
+paginate_path: /page:num/
+
+# Search
+search: true
+
+author:
+  name: "김세권"
+  email: "yesany99@gmail.com"
+  links: []
+
+footer:
+  links: []
+
+# Archives use liquid templates
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+include:
+  - _pages
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md
