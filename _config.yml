@@ -31,6 +31,13 @@ paginate_path: /page:num/
 # Search
 search: true
 
+# Analytics
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-XXXXXXXXXX" # TODO: GA4 측정 ID로 교체
+    anonymize_ip: false
+
 # Comments
 comments:
   provider: "giscus"
