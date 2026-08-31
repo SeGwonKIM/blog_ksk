@@ -1,6 +1,6 @@
 ---
 title: "AI 작업대 세팅 + GitHub 협업 흐름 요점정리"
-excerpt: "Claude Code를 쓸 작업대를 차리는 법과, Fork-Clone-PR로 GitHub에서 협업하는 흐름을 정리했습니다."
+excerpt: "🗓️ 2026-08-31 · Claude Code를 쓸 작업대를 차리는 법과, Fork-Clone-PR로 GitHub에서 협업하는 흐름을 정리했습니다."
 categories:
   - 학습노트
 tags:
