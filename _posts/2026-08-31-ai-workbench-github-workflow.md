@@ -5,8 +5,6 @@ categories:
   - 학습노트
 tags:
   - Claude Code
-  - GitHub
-  - 개발환경
 date: 2026-08-31 20:00:00 +0900
 ---
 
