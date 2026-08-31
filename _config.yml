@@ -33,11 +33,22 @@ search: true
 
 author:
   name: "김세권"
+  avatar: "/assets/images/avatar.jpeg"
+  bio: "소프트웨어 개발, 자동화, AI 활용에 관심이 많습니다. 꾸준함이 실력이 된다는 마음으로 배운 것을 기록합니다."
   email: "yesany99@gmail.com"
-  links: []
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/SeGwonKIM"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:yesany99@gmail.com"
 
 footer:
-  links: []
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/SeGwonKIM"
 
 # Archives use liquid templates
 category_archive:
