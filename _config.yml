@@ -6,6 +6,7 @@ email: yesany99@gmail.com
 description: >-
   AI, 데이터 사이언스, 개발을 공부하며 배운 내용을 정리하고 기록하는 블로그입니다.
 locale: "ko-KR"
+timezone: "Asia/Seoul"
 url: "https://segwonkim.github.io"
 baseurl: "/blog_ksk"
 repository: "SeGwonKIM/blog_ksk"
